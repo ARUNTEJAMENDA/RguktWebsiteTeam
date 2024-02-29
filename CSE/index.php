@@ -42,7 +42,7 @@
     <div class="fl_left">
 	<table>
 	<tbody><tr valign="center"><td>
- 	<img src="./csefiles//cse-iitm.png" width="80px" height="80px" align="center"></td><td>&nbsp; &nbsp;&nbsp; &nbsp; </td><td><br>
+ 	<img src="./csefiles/images/cse-iitm.png" width="80px" height="80px" align="center"></td><td>&nbsp; &nbsp;&nbsp; &nbsp; </td><td><br>
 	<h1 style="font-size:25px;"><a href="http://www.cse.iitm.ac.in/index.php">Department of Computer Science &amp; Engineering</a></h1>
       <h2 style="font-size:15px;"><a href="http://www.iitm.ac.in/">Indian Institute of Technology Madras, Chennai, India.</a></h2></td>
       </tr></tbody></table>
@@ -75,24 +75,18 @@
 <div class="wrapper row1">
   <div id="menu">
     <div id="cssmenu">
-     	
 			<ul>
-			<li><a href="http://www.cse.iitm.ac.in/index.php"><span>Home</span></a>
-			</li>
-			<li class="has-sub"><a href="http://www.cse.iitm.ac.in/sitemap.php?menuid=2"><span>People</span></a>
+				<li><a href="http://www.cse.iitm.ac.in/index.php"><span>Home</span></a></li>
+				<li class="has-sub"><a href="http://www.cse.iitm.ac.in/sitemap.php?menuid=2"><span>People</span></a>
 			<ul>
-			<li class="has-sub"><a href="http://www.cse.iitm.ac.in/listpeople.php?arg=MSQw"><span>Faculty</span></a>
-			<ul>
-			<li><a href="http://www.cse.iitm.ac.in/listpeople.php?arg=MSQw"><span>Regular Faculty</span></a>
-			</li>
-			<li><a href="http://www.cse.iitm.ac.in/listpeople.php?arg=RmFjdWx0eSE2JDAkJA=="><span>Visiting Faculty</span></a>
-			</li>
-			<li><a href="http://www.cse.iitm.ac.in/listpeople.php?arg=RmFjdWx0eSE0JDAkJA=="><span>Adjunct Faculty</span></a>
-			</li>
-			<li><a href="http://www.cse.iitm.ac.in/listpeople.php?arg=MSQx"><span>Former Faculty</span></a>
-			</li>
-			</ul>
-			</li>
+				<li class="has-sub"><a href="http://www.cse.iitm.ac.in/listpeople.php?arg=MSQw"><span>Faculty</span></a>
+					<ul>
+						<li><a href="http://www.cse.iitm.ac.in/listpeople.php?arg=MSQw"><span>Regular Faculty</span></a></li>
+						<li><a href="http://www.cse.iitm.ac.in/listpeople.php?arg=RmFjdWx0eSE2JDAkJA=="><span>Visiting Faculty</span></a></li>
+						<li><a href="http://www.cse.iitm.ac.in/listpeople.php?arg=RmFjdWx0eSE0JDAkJA=="><span>Adjunct Faculty</span></a></li>
+						<li><a href="http://www.cse.iitm.ac.in/listpeople.php?arg=MSQx"><span>Former Faculty</span></a></li>
+					</ul>
+				</li>
 			<li class="has-sub"><a href="http://www.cse.iitm.ac.in/listpeople.php?arg=MiQw"><span>Staff</span></a>
 			<ul>
 			<li><a href="http://www.cse.iitm.ac.in/listpeople.php?arg=U3RhZmYhMTYkMCQk"><span>Scientific Officers</span></a>
@@ -254,23 +248,17 @@
 <div class="wrapper row5">
   <div id="container" class="clear">
      <div id="homepage" class="clear">
-     
-	<div class="fl_left">
-
-<div class="sidebar" style="float:left; width:110%; margin:0px auto; margin-top:5px; margin-bottom:20px; height:auto;color:#383838; font-size:13px">
-<h2 style="font-size:14px;font-weight:bold">Latest @ CSE</h2>
-<div style="margin-right:20px; line-height:20px">
-<ul>
-         <li style="width:90%"><b>Jan 2024</b> : ACM workshop on  Research Opportunity in Computer Science (ROCS)	 <a style="font-weight:normal; font-size:12px;" href="http://www.cse.iitm.ac.in/news.php?arg=MjIy">(read more)</a>
-	 </li>
-         <li style="width:90%"><b>Jan 2024</b> : Dr. Rupesh Nasre has been promoted to the post of Professor	 <a style="font-weight:normal; font-size:12px;" href="http://www.cse.iitm.ac.in/news.php?arg=MjI0">(read more)</a>
-	 </li>
-         <li style="width:90%"><b>Jan 2024</b> : Dr. Shweta Agrawal has been promoted to the post of Professor	 <a style="font-weight:normal; font-size:12px;" href="http://www.cse.iitm.ac.in/news.php?arg=MjI1">(read more)</a>
-	 </li>
-         <li style="width:90%"><b>Sep 2023</b> : Professor B. Ravindran has been elected as Fellow of INAE	 <a style="font-weight:normal; font-size:12px;" href="http://www.cse.iitm.ac.in/news.php?arg=MjE3">(read more)</a>
-	 </li>
-</ul>
-<span style="float:right"><a style="font-weight:normal; font-size:12px;" href="http://www.cse.iitm.ac.in/events.php?arg=TmV3cw==">(View All)</a></span></div>
+		<div class="fl_left">
+			<div class="sidebar" style="float:left; width:110%; margin:0px auto; margin-top:5px; margin-bottom:20px; height:auto;color:#383838; font-size:13px">
+				<h2 style="font-size:14px;font-weight:bold">Latest @ CSE</h2>
+				<div style="margin-right:20px; line-height:20px">
+					<ul>
+						<li style="width:90%"><b>Jan 2024</b> : ACM workshop on  Research Opportunity in Computer Science (ROCS)	 <a style="font-weight:normal; font-size:12px;" href="http://www.cse.iitm.ac.in/news.php?arg=MjIy">(read more)</a></li>
+						<li style="width:90%"><b>Jan 2024</b> : Dr. Rupesh Nasre has been promoted to the post of Professor	 <a style="font-weight:normal; font-size:12px;" href="http://www.cse.iitm.ac.in/news.php?arg=MjI0">(read more)</a></li>
+						<li style="width:90%"><b>Jan 2024</b> : Dr. Shweta Agrawal has been promoted to the post of Professor	 <a style="font-weight:normal; font-size:12px;" href="http://www.cse.iitm.ac.in/news.php?arg=MjI1">(read more)</a></li>
+						<li style="width:90%"><b>Sep 2023</b> : Professor B. Ravindran has been elected as Fellow of INAE	 <a style="font-weight:normal; font-size:12px;" href="http://www.cse.iitm.ac.in/news.php?arg=MjE3">(read more)</a></li>
+					</ul>
+					<span style="float:right"><a style="font-weight:normal; font-size:12px;" href="http://www.cse.iitm.ac.in/events.php?arg=TmV3cw==">(View All)</a></span></div>
 </div><br>
 	<div style="font-size:12px; font-weight:normal; line-height:5px;">
 		<h2 style="font-size:14px; font-weight:bold">Quick Links</h2>
@@ -401,7 +389,7 @@ Web Conference Link : meet.google.com/dzj-nekm-tcc"><a href="http://www.cse.iitm
 		 (IITM).</td></tr>
 		<tr>
 		<td style="width:50px;" valign="top">Mar 01</td><td valign="top"> : </td>
-            	<td style="padding-left:10px"><span title="AI workloads exhibit traffic patterns that stress data center networks unlike any other compute or storage workloads, posing unique challenges for network performance and efficiency. In this talk, I will discuss some of these challenges, and deep dive into one new mechanism that aids traffic optimization and network efficiency in this context - a practical and effective in-band signaling protocol called Congestion Signaling (CSIG). We will explore CSIG’s use cases in congestion control, traffic engineering and telemetry in software-defined networks that serve AI traffic and beyond; and outline new avenues of research that it enables."><a href="http://www.cse.iitm.ac.in/seminar_details.php?arg=NjEy">Congestion Signaling (CSIG): In-band network signaling for traffic management in AI network fabrics</a></span>
+            	<td style="padding-left:10px"><span title="AI workloads exhibit traffic patterns that stress data center networks unlike any other compute or storage workloads, posing unique challenges for network performance and efficiency. In this talk, I will discuss some of these challenges, and deep dive into one new mechanism that aids traffic optimization and network efficiency in this context - a practical and effective in-band signaling protocol called Congestion Signaling (CSIG). We will explore CSIG's use cases in congestion control, traffic engineering and telemetry in software-defined networks that serve AI traffic and beyond; and outline new avenues of research that it enables."><a href="http://www.cse.iitm.ac.in/seminar_details.php?arg=NjEy">Congestion Signaling (CSIG): In-band network signaling for traffic management in AI network fabrics</a></span>
 		- <a href="http://www.cse.iitm.ac.in/">Abhiram Ravi</a>
 		 (Staff Software Engineer at Google, California).</td></tr>
 </tbody></table><br>
@@ -430,7 +418,7 @@ The department has a vibrant student body numbering around 700 and faculty numbe
 <br><br>
 The vision of the CSE Department is Global Excellence and Local Relevance in Research, teaching, and technology development in Computer Science and Engineering. In pursuit of this vision, the Department is actively engaged in research activities in various research areas.
 <br><br>
-The Department’s research activities have been funded by several Government organizations such as Department of Science &amp; Technology (DST), Ministry Of Electronics &amp; Information Technology (MeiTY), and Defence Research and Development Organisation (DRDO); and by several industries including Accenture, Amazon, Ciena, Google, Hitachi, IBM, Intel, Microsoft, Tata Power Corporation, and VMWare. Several of our alumni hold important positions in the industry and academia worldwide. Students have been recently placed, both in India and abroad, in several leading national and international companies including Adobe, Apple, Flipkart, Goldman Sachs, Google, IBM, Intel, Juniper, LinkedIn, Microsoft, Ola, Oracle, Paypal, Qualcomm, Samsung, Uber, and Visa. Many Ph.D. graduates are serving as faculty members, both in India and abroad, in reputed educational institutions such as Indian Institute of Science Bangalore, Institute of Mathematical Sciences, IIT Bombay, IIT Kanpur, IIT Kharagpur, IIT Madras,  IIT Guwahati, IIT Hyderabad, IIT Jodhpur, IIT Dharwad, IIT Mandi, IIT Palakkad, IIT Tirupati, IIIT Bangalore, IIITDM Kancheepuram,  NIT Calicut, NIT Trichy, Iowa State University, Queen’s University Belfast, and National University of Singapore.<br><br>
+The Department's research activities have been funded by several Government organizations such as Department of Science &amp; Technology (DST), Ministry Of Electronics &amp; Information Technology (MeiTY), and Defence Research and Development Organisation (DRDO); and by several industries including Accenture, Amazon, Ciena, Google, Hitachi, IBM, Intel, Microsoft, Tata Power Corporation, and VMWare. Several of our alumni hold important positions in the industry and academia worldwide. Students have been recently placed, both in India and abroad, in several leading national and international companies including Adobe, Apple, Flipkart, Goldman Sachs, Google, IBM, Intel, Juniper, LinkedIn, Microsoft, Ola, Oracle, Paypal, Qualcomm, Samsung, Uber, and Visa. Many Ph.D. graduates are serving as faculty members, both in India and abroad, in reputed educational institutions such as Indian Institute of Science Bangalore, Institute of Mathematical Sciences, IIT Bombay, IIT Kanpur, IIT Kharagpur, IIT Madras,  IIT Guwahati, IIT Hyderabad, IIT Jodhpur, IIT Dharwad, IIT Mandi, IIT Palakkad, IIT Tirupati, IIIT Bangalore, IIITDM Kancheepuram,  NIT Calicut, NIT Trichy, Iowa State University, Queen's University Belfast, and National University of Singapore.<br><br>
 <a href="http://cse.iitm.ac.in/profile.php?arg=MTY=">Prof. V. Krishna Nandivada</a> <br>
 Head of the Department<br>
 Department of Computer Science and Engineering <br>
@@ -453,7 +441,7 @@ Note : The following description is being quoted from the article <a href="https
 <img src="./csefiles//algorithm.jpg" width="250" height="125"><br>
 </td>
 <td valign="top" style="padding-left:10px"><p align="justify">
-Cryptography is a beautiful branch of mathematics which guarantees the art of secret keeping. In today’s world of big data, there is 
+Cryptography is a beautiful branch of mathematics which guarantees the art of secret keeping. In today's world of big data, there is 
 a serious conflict between utility and privacy. The prime example of this conflict comes from the field of medicine — the abundance 
 of genetic data today makes it possible to imagine a future where medicines can be personalized, but developing this capability 
 requires running algorithms on large scale genetic data which is highly sensitive, and may compromise the privacy of individuals. 
@@ -465,9 +453,9 @@ Another such example is the raging privacy debates pertaining to the biometric d
 <td valign="top" style="padding-right:10px"><p align="justify">
 Modern cryptography has taken huge 
 strides in expressiveness and generality, tackling paradoxical questions such as ‘if is it possible to run machine learning 
-algorithms on encrypted data’ to ‘is it possible to prove that I know a secret without telling you what I know?’ to ‘is it possible 
+algorithms on encrypted data' to ‘is it possible to prove that I know a secret without telling you what I know?' to ‘is it possible 
 to obfuscate computer programs so that they perform the intended functionality of the program but are guaranteed to reveal nothing 
-about the inner workings of the program, even given its code?’
+about the inner workings of the program, even given its code?'
 <br><br>
 In recent work to appear at Eurocrypt 2019, Dr Shweta Agrawal provided new approaches to the problem of constructing obfuscation and gave new candidate obfuscators based on novel mathematical hardness assumptions. This advances the state of the art in constructing obfuscation, and bringing it closer to resolution.
 
@@ -547,7 +535,7 @@ Web Conference Link : meet.google.com/dzj-nekm-tcc"><a href="http://www.cse.iitm
 		 (IITM).</td></tr>
 		<tr>
 		<td style="width:50px;" valign="top">Mar 01</td><td valign="top"> : </td>
-            	<td style="padding-left:10px"><span title="AI workloads exhibit traffic patterns that stress data center networks unlike any other compute or storage workloads, posing unique challenges for network performance and efficiency. In this talk, I will discuss some of these challenges, and deep dive into one new mechanism that aids traffic optimization and network efficiency in this context - a practical and effective in-band signaling protocol called Congestion Signaling (CSIG). We will explore CSIG’s use cases in congestion control, traffic engineering and telemetry in software-defined networks that serve AI traffic and beyond; and outline new avenues of research that it enables."><a href="http://www.cse.iitm.ac.in/seminar_details.php?arg=NjEy">Congestion Signaling (CSIG): In-band network signaling for traffic management in AI network fabrics</a></span>
+            	<td style="padding-left:10px"><span title="AI workloads exhibit traffic patterns that stress data center networks unlike any other compute or storage workloads, posing unique challenges for network performance and efficiency. In this talk, I will discuss some of these challenges, and deep dive into one new mechanism that aids traffic optimization and network efficiency in this context - a practical and effective in-band signaling protocol called Congestion Signaling (CSIG). We will explore CSIG's use cases in congestion control, traffic engineering and telemetry in software-defined networks that serve AI traffic and beyond; and outline new avenues of research that it enables."><a href="http://www.cse.iitm.ac.in/seminar_details.php?arg=NjEy">Congestion Signaling (CSIG): In-band network signaling for traffic management in AI network fabrics</a></span>
 		- <a href="http://www.cse.iitm.ac.in/">Abhiram Ravi</a>
 		 (Staff Software Engineer at Google, California).</td></tr>
 </tbody></table><br>
@@ -621,7 +609,7 @@ Web Conference Link : meet.google.com/dzj-nekm-tcc"><a href="http://www.cse.iitm
     <div class="fl_left" style="padding-left:20px">
 	<table cellpadding="0" cellspacing="0"><tbody><tr>
      <td align="center"><a href="https://www.google.co.in/maps/place/12%C2%B059%2720.3%22N+80%C2%B013%2746.2%22E/@12.9889738,80.229491,15z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0" target="_blank" title="Locate us in Google Maps">
-	<img src="./csefiles//maps-icon.png" alt="" width="40px" height="40px"></a></td>
+	<img src="./csefiles/images/maps-icon.png" alt="" width="40px" height="40px"></a></td>
 	<td rowspan="2">
       <address>
       Department of Computer Science and Engineering<br>
