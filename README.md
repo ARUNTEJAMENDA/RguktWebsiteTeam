@@ -1,1 +1,1 @@
-https://aruntejamenda.github.io/RguktWebsiteTeam3/index.html
+https://aruntejamenda.github.io/RguktWebsiteTeam/index.html
