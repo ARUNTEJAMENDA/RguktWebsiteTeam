@@ -1,13 +1,13 @@
 html{
     background:rgb(102, 102, 102);
-    width:100vw;
+    /* width:100vw; */
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Times New Roman', Times, serif;
 }
 body{
-    margin:0em 0 0 0;
+    margin:0 0 0 0;
     padding:0;
     /* border:1px solid white; */
     height:max-content;
@@ -15,15 +15,16 @@ body{
 }
 body *{
     flex-shrink: 0;
+    margin:0;padding:0;
 }
-nav{
+header{
     background:rgb(34, 34, 34);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     height: 130px;
 }
-nav *{
+header *{
     /* border:1px solid white; */
 }
 #logo{
@@ -35,7 +36,7 @@ nav *{
 }
 #head{
     height:100%;
-    width:55%;
+    width:85%;
     padding:0 0 0 0em;
     display: flex;
     flex-direction: column;
@@ -57,7 +58,7 @@ nav *{
 }
 #others{
     height:100%;
-    width:30%;
+    width:0%;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
@@ -67,8 +68,72 @@ nav *{
     margin: 2em 2em 0 0;
     font-size: 0.8em;
 }
-nav a{
+a{
     text-decoration: none;
-    color:white;
     cursor: pointer;
+    color: white;
+}
+/* -----NAV----- */
+nav{
+    margin:0;
+    padding:0;
+    height:40px;
+    width:100%;
+    background: rgb(139, 58, 58);
+    font-weight: bold;
+}
+nav ol{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav ol li{
+    list-style: none;
+    display: inline;
+    color:rgb(255,255,255,0.7);
+}
+/* -----MAIN----- */
+#main{
+    height:100vh;
+    background: rgb(235, 237, 238);
+    border: 1px solid white;
+    display: grid;
+    grid-template-columns: 25% auto 25%;
+    /* grid-column-gap:1em; */
+    padding:1em;
+}
+.section1{
+    padding: 0 1em 0 1em;
+    font-size: 0.7em;
+    /* border: 1px solid white;  */
+}
+#updatesContainer,#announcementsContainer{
+    padding:1em;
+    border-radius: 20px;
+    border: 2px solid rgb(165, 162, 162);
+    height:300px;
+}
+#main hr{
+    border: 1px solid rgb(165, 162, 162);
+}
+
+/* ---------RESPONSIVE--------- */
+@media screen and (max-width: 1200px){
+    body{
+        width:100%;
+    }
+    #logo{
+        padding:1em;
+        margin: 0 0 0 1em;
+    }
+    #head{
+        width:unset;
+    }
+    #others{
+        width:30%;
+    }
 }
