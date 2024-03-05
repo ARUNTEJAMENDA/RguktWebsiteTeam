@@ -302,6 +302,6 @@ nav ol li {
 		width: unset;
 	}
 	#others {
-		width: 30%;
+		/* width: 30%; */
 	}
 }
