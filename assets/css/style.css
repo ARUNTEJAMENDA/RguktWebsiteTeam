@@ -1,0 +1,72 @@
+html{
+    background:rgb(102, 102, 102);
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    margin:0em 0 0 0;
+    padding:0;
+    /* border:1px solid white; */
+    height:max-content;
+    width:89%;
+}
+body *{
+    flex-shrink: 0;
+}
+nav{
+    background:rgb(34, 34, 34);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 20vh;
+}
+nav *{
+    /* border:1px solid white; */
+}
+#logo{
+    aspect-ratio: 1/1;
+    padding:1em;
+    height:80%;
+    /* width:9%; */
+    border-radius: 50%;
+}
+#head{
+    height:100%;
+    width:55%;
+    padding:0 0 0 1em;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+#headTitle{
+    font-variant: small-caps;
+    font-size: 1.5em;
+    color:white;
+    padding:0;
+    margin:0 0 0 0; 
+}
+#headDesc{
+    align-self: flex-start;
+    padding:0;
+    margin:0 0 1em 0; 
+    color:white;
+}
+#others{
+    height:100%;
+    width:30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+#others p{
+    margin-right: 1em;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+}
