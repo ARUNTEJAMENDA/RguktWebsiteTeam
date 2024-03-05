@@ -8,7 +8,7 @@
 <body>
     <ol>
         <li><a href="./CE/" target="_blank" rel="noopener noreferrer">CE</a></li>
-        <li><a href="./ECE/" target="_blank" rel="noopener noreferrer">CSE</a></li>
+        <li><a href="./CSE/" target="_blank" rel="noopener noreferrer">CSE</a></li>
         <li><a href="./CHE/" target="_blank" rel="noopener noreferrer">CHE</a></li>
         <li><a href="./ECE/" target="_blank" rel="noopener noreferrer">ECE</a></li>
         <li><a href="./EE/" target="_blank" rel="noopener noreferrer">EE</a></li>
