@@ -1,17 +1,23 @@
+:root{
+	--maroon:rgb(116, 32, 32);
+}
+
 html {
 	background: rgb(102, 102, 102);
-	/* width:100vw; */
+	height:768px;
+	width:1366px;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	/* align-items: center; */
 	font-family: "Times New Roman", Times, serif;
+	overflow-x: hidden;
 }
 body {
 	margin: 0 0 0 0;
 	padding: 0;
 	/* border:1px solid white; */
 	height: max-content;
-	width: 89%;
+	width: 88%;
 }
 body * {
 	flex-shrink: 0;
@@ -23,7 +29,7 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-	height: 130px;
+	height: 125px;
 	color: rgb(225, 225, 225);
 }
 header * {
@@ -57,39 +63,56 @@ header * {
 	margin: 0 0 1em 0;
 }
 #others {
+	all:unset;
 	height: 100%;
 	width: 0%;
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-start;
-	color: white;
 }
 #others p {
 	margin: 2em 2em 0 0;
 	font-size: 0.8em;
 }
+#others a{
+	text-decoration: none;
+	color:white;
+}
+
 a {
 	text-decoration: none;
 	cursor: pointer;
-	color: white;
+}
+
+h3{
+	font-size: 0.9em;
+}
+li{
+	font-size: 0.8em;
 }
 /* -----NAV----- */
 nav {
 	margin: 0;
 	padding: 0;
-	height: 40px;
+	height: 34px;
 	width: 100%;
 	background: rgb(139, 58, 58);
+	font-size: 1.2em;
 	font-weight: bold;
 }
 nav ol {
-	margin: 0;
+ 	margin: 0;
 	padding: 0;
 	height: 100%;
 	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
+}
+nav ol a{
+	height:100%;
+	display: flex;
+	align-items: center;
 }
 nav ol li {
 	list-style: none;
@@ -102,11 +125,11 @@ nav ol li {
 	background: rgb(235, 237, 238);
 }
 #row1 {
-	/* height:100vh; */
 	display: grid;
-	grid-template-columns: 25% auto 25%;
+	grid-template-columns: 22% 49% 22%;
+	justify-content: space-evenly;
 	/* grid-column-gap:1em; */
-	padding: 1em;
+	padding: 22px 0 0 0;
 	/* border:1px solid black; */
 }
 .section1 {
@@ -115,28 +138,25 @@ nav ol li {
 .section1 h1 {
 	color: rgb(50, 50, 50);
 }
+
 #updatesContainer,
 #announcementsContainer {
 	padding: 1em;
-	border-radius: 20px;
+	border-radius: 12px;
 	height: 300px;
-	/* box-shadow: 2px 3px 0px 0 rgb(165, 162, 162); */
-	box-shadow: -0px 2px 2px 2px rgb(165, 162, 162, 0.6);
+	border: 2px solid rgb(165, 162, 162,0.5);
+	box-shadow: 0px 2px 4px 0px rgb(165, 162, 162,0.8);
 }
+#announcementsContainer {height:150px;}
 #row1 hr {
-	/* border: 1px solid rgb(165, 162, 162); */
 	margin: 0.5em 0 0.5em 0;
+	border-top: 0.2px solid rgb(165, 162, 162,0.6);
+	border-left:0;
 }
 #carouselContainer {
 	height: 300px;
 	padding: 1em;
 }
-/* #carousel {
-  padding: 1em;
-  height: 100px;
-  border: 1px solid black;
-  border-radius: 10px;
-} */
 .imgDesc{
 	position:absolute;
 	bottom:0;
@@ -148,20 +168,18 @@ nav ol li {
 	padding:1em;
 }
 .carousel {
+	flex-shrink: 0;
 	position: relative;
-	height: 100%;
+	height: 95%;
 	/* width: 500px; */
 	margin: 0 auto;
 	margin-bottom: 5rem;
-	/* border: 1px solid black; */
 }
 .carousel__images {
 	max-width: max-content;
 	width: max-content;
 	height: 96%;
 	object-fit: contain;
-	border-radius: 20px;
-	/* border: 1px solid black; */
 }
 .carousel__track-container {
 	height: 100%;
@@ -238,9 +256,9 @@ nav ol li {
 /* -------MAIN ROW 2------ */
 #row2 {
 	display: grid;
-	grid-template-columns: 25% auto;
+	grid-template-columns: 28% auto;
 	grid-column-gap: 1em;
-	padding: 1em;
+	padding: 1em 1em 0em 1em;
 }
 #row2 div {
 	/* height: max-content; */
@@ -248,23 +266,32 @@ nav ol li {
 	/* padding:1em; */
 }
 #leftContainer {
-	padding: 1em;
+	padding: 1em 1em 0em 1em;
 	border-radius: 20px;
-	/* border: 2px solid rgb(165, 162, 162); */
 	color: rgb(50, 50, 50);
 	height: 500px;
-	box-shadow: -0px 2px 2px 2px rgb(165, 162, 162, 0.6);
-	box-shadow: -0px 2px 2px 2px rgb(165, 162, 162, 0.6);
+	/* box-shadow: -0px 2px 2px 2px rgb(165, 162, 162, 0.6); */
+}
+#leftContainer li{
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+#leftContainer ul li a{
+	font-weight: 550;
+	color:rgb(0, 102, 204);
 }
 #row2 hr {
-	/* border: 0.2px solid rgb(165, 162, 162); */
-	margin: 0.5em 0 0.5em 0;
-}
-#leftContainer li {
-	margin: 0 0 0 1em;
+	border-top: 0.2px solid rgb(165, 162, 162,0.6);
+	border-left:0;
+	margin: 0.3em 0 0.3em 0;
 }
 #rightContainer {
 	/* border:1px solid black; */
+	padding: 0 1em 0 0;
+	text-align: justify;
+	font-size: 0.86em;
+	line-height: 1.5em;
 }
 #content2 {
 	display: none;
@@ -284,13 +311,84 @@ nav ol li {
 .content2 {
 	background: rgb(139, 112, 112);
 }
-#rightContainer hr {
+#aboutDept{
 	margin: 0 0 1em 0;
-	padding: 0;
-	border: 1px solid rgba(50, 50, 50, 0.6);
+}
+#UpcomingSeminars #UShead{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+#SeminarsLinks{
+	width:100%;
+	padding:0.7em 0 0 1em;
+}
+#SeminarsLinks ol li{
+	font-size: 0.98em;
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+.maroon{
+	color:var(--maroon);
+}
+#SeminarsLinks ol li span{
+	color:var(--maroon);
+}
+
+/* -----------ROW3------------- */
+#row3{
+	margin: 0;
+	padding: 2em 1em 1em 1em;
+	border:none;
+	border-top: 1px solid rgba(50, 50, 50, 0.6);
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20%;
+	justify-content: space-evenly;
+}
+.row3Child ol{
+	padding: 0 0 0 1em;
+}
+.row3Child ol li{
+	font-size: 0.8em;
+	padding: 0 0 0 0;
+	font-weight: unset;
+	list-style:"≫ ";
+}
+.row3Child hr{
+	margin: 0.5em 0 0.5em 0;
+}
+/* --------FOOTER---------- */
+footer{
+	border: none;
+	border-top: 1px solid rgba(50, 50, 50, 0.6);
+	margin:0 0 0.4em 0;
+	height:107px;
+	width:100%;
+	background: rgb(34, 34, 34);
+	display: grid;
+	grid-template-columns: 50% 50%;
+	justify-content: space-between;
+	align-items: center;
+}
+footer>div{
+	width: 100%;
+	line-height:20px;
+	padding: 1em;
+	font-size: 0.9em;
+	color: rgb(200, 204, 207);
+}
+#copyRights{
+	width:100%;
+	font-size: 0.8em;
+	text-align: justify;
 }
 /* ---------RESPONSIVE--------- */
 @media screen and (max-width: 1200px) {
+	html{
+		overflow: scroll;
+	}
 	body {
 		width: 100%;
 	}

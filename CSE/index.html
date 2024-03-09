@@ -38,8 +38,8 @@
 			<div id="row1">
 				<div class="section1" id="updatesContainer">
 					<div id="updates">
-						<h3>Latest@CSE</h3>
-						<hr />
+						<h3>Latest @ CSE</h3>
+						<hr/>
 					</div>
 				</div>
 				<div class="section1" id="carouselContainer">
@@ -75,15 +75,28 @@
 			<div id="row2">
 				<div id="leftContainer">
 					<h3>Quick Links</h3>
-					<hr />
+					<hr style="width:75%;"/>
 					<ul>
-						<li> Lorem ipsum dolor sit amet consectetur</li>
-						<li> adipisicing elit. Neque quisquam cupiditate est reiciendis, laboriosam error culpa aspernatur, ea esse ad animi</li>
-						<li> dolorum pariatur quam eos quos laudantium temporibus molestiae inventore? </li>
-						<li> dolorum pariatur quam eos quos laudantium temporibus molestiae inventore? </li>
-						<li> dolorum pariatur quam eos quos laudantium temporibus molestiae inventore? </li>
-						<li> dolorum pariatur quam eos quos laudantium temporibus molestiae inventore? </li>
-						<li> dolorum pariatur quam eos quos laudantium temporibus molestiae inventore?</li>
+						<li><a href=""> Faculty Recruitment</a></li>
+						<hr>
+						<li><a href=""> Admissions - Recommended</a></li>
+						<hr>
+						<li><a href=""> Current Courses</a></li>
+						<hr>
+						<li><a href=""> Course Time Table</a></li>
+						<hr>
+						<li><a href=""> Research Labs</a></li>
+						<hr>
+						<li><a href=""> Summer Research Fellowship 2023</a></li>
+						<hr>
+						<li><a href=""> Dept Grevience Resolution Committee</a></li>
+						<hr>
+						<li><a href=""> UG & PG Curriculum</a></li>
+						<hr>
+						<li><a href=""> Minor Streams</a></li>
+						<hr>
+						<li><a href=""> Faculty Websites</a></li>
+						<hr>
 					</ul>
 				</div>
 				<div id="rightContainer">
@@ -93,23 +106,127 @@
 						<button class="tab content2">Message from the HoD</button>
 					</div>
 					<script>
-						$(document).ready(function () {
-							$(".tab").click(function () {
+						$(document).ready(function(){
+							$(".tab").click(function(){
 								let reqContentClass = this.className.split(" ")[1];
 								// alert(reqContentClass)
 								$(".contents").css("display", "none");
 								$("#" + reqContentClass).css("display", "block");
-								//----------buttons styling
+								// ----------buttons styling----------
 								$(".tab").css("background", "rgb(139, 112, 112)");
 								$("." + reqContentClass).css("background", "rgb(139, 58, 58)");
 							});
 						});
 					</script>
-					<hr />
-					<div class="contents" id="content1">Content-1</div>
+					<hr style="margin: 0 0 1.4em 0;padding: 0;width: 97%;border:none;border-top: 1px solid rgba(50, 50, 50, 0.6);" >
+					<div class="contents" id="content1">
+						<div id="aboutDept">
+							Global excellence and local relevance in <resear></resear>ch, teaching, and technology development is the vision of the Department. The Department was started as the Computer Centre in 1973 with the acquisition of an IBM 370, perhaps the most powerful computer in India at that time. It offered M.Tech, M.S and PhD degree programmes. In 1983, the B.Tech degree programme was started.
+							<br>
+							<br>
+							Today the Department has a vibrant student body numbering about 700. Over 60% are postgraduate, mostly supported by scholarships. The Department also offers several attractive industry-sponsored Fellowships for outstanding PhD scholars and liberally supports participation in top-ranking international conferences.
+							<br>
+							<br>
+							The department has been funded by FIST program from DST, Govt. of India in 2002 and 2017. The Secure Systems Laboratory is funded by FIST program 2017.
+							<br>
+							<br>
+							The report on the department activities presented by the Head of the Department at the Department Degree Distribution Program, 2020 is available here.
+							<br>
+							<br>
+							The video of the Department Degree Distribution Program is now available here.
+						</div>
+						<div id="UpcomingSeminars">
+							<div id="UShead">
+								<h3 style="font-size: 1em;padding: 0 0 0em 0;">Upcoming Seminars : </h3>
+								<div id="UpcomingSeminarsFilter">
+									Filter:
+									<select name="SeminarsFilter" id="SeminarsFilter">
+										<option value="all">All Seminars</option>
+										<option value="dept">Dept Seminars</option>
+										<option value="all">Faculty Research Seminars</option>
+									</select>
+									<a class="maroon" href="seminars.php" >(View All)</a>
+								</div>
+							</div>
+							<hr/>
+							<div id="SeminarsLinks">
+								<ol>
+									<li>Date : <span>ipsum dolor, sit amet consectetur adipisicing elit.</span> </li>
+									<li>Date : <span>ipsum dolor, sit amet consectetur adipisicing elit.</span> </li>
+									<li>Date : <span>ipsum dolor, sit amet consectetur adipisicing elit.</span> </li>
+									<li>Date : <span>ipsum dolor, sit amet consectetur adipisicing elit.</span> </li>
+								</ol>
+							</div>
+						</div>
+					</div>
 					<div class="contents" id="content2">Content-2</div>
 				</div>
 			</div>
+			<div id="row3" >
+				<div class="row3Child" id="c1">
+					<h3>For Current Students</h3>
+					<hr>
+					<ol>
+						<li>Lorem ipsum dolor sit</li>
+						<li>Lorem ipsum dolor sit</li>
+						<li>Lorem ipsum dolor sit</li>
+						<li>Lorem ipsum dolor sit</li>
+						<li>Lorem ipsum dolor sit</li>
+						<li>Lorem ipsum dolor sit</li>
+					</ol>
+				</div>
+				<div class="row3Child" id="c2">
+					<h3>For Prospective Students</h3>
+					<hr>
+					<ol>
+						<li>Lorem ipsum dolor sit</li>
+						<li>Lorem ipsum dolor sit</li>
+						<li>Lorem ipsum dolor sit</li>
+						<li>Lorem ipsum dolor sit</li>
+						<li>Lorem ipsum dolor sit</li>
+						<li>Lorem ipsum dolor sit</li>
+					</ol>
+				</div>
+				<div class="row3Child" id="c3">
+					<h3>For Visitors</h3>
+					<hr>
+					<ol>
+						<li>Lorem ipsum dolor sit</li>
+						<li>Lorem ipsum dolor sit</li>
+						<li>Lorem ipsum dolor sit</li>
+						<li>Lorem ipsum dolor sit</li>
+						<li>Lorem ipsum dolor sit</li>
+						<li>Lorem ipsum dolor sit</li>
+					</ol>
+				</div>
+				<div class="row3Child" id="c4">
+					<h3>For Prospective Faculty</h3>
+					<hr>
+					<ol>
+						<li>Lorem ipsum dolor sit</li>
+						<li>Lorem ipsum dolor sit</li>
+						<li>Lorem ipsum dolor sit</li>
+						<li>Lorem ipsum dolor sit</li>
+						<li>Lorem ipsum dolor sit</li>
+						<li>Lorem ipsum dolor sit</li>
+					</ol>
+				</div>
+			</div>
 		</section>
+		<footer>
+
+			<div>
+				Department of Computer Science and Engineering
+				<br>Rajiv Gandhi University of Knowledge Technologies - Nuzvid
+				<br>Eluru District, A.P, India.
+				<br>PIN Code : 521202
+			</div>
+			<div>
+				HoD: (+91) XXXXXXXXX, hodcse [at] rguktn.ac.in
+				<br>Tel:  (+91) XXXXXXXXX, Fax: (+91) XXXXXXXX
+				<br>Email: csoffice [at] rguktn.ac.in.
+				<br><div id="copyRights">&copy 2016 - All Rights Reserved - Dept of CSE, RGUKT - Nuzvid. || <a href="#" class="maroon">Website Credits</a></div>
+			</div>
+		</footer>
 	</body>
 </html>
