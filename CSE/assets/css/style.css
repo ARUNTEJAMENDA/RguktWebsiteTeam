@@ -1,9 +1,14 @@
 :root{
+	--htmlBack:rgba(141, 137, 80, 0.473);
+	/* rgb(102, 102, 102); */
 	--maroon:rgb(116, 32, 32);
+	--navMaroon:rgb(34, 34, 34);
+	/* rgb(139, 58, 58); */
+	--headerFooterColor:rgb(116, 32, 32);
 }
 
 html {
-	background: rgb(102, 102, 102);
+	background: var(--htmlBack);
 	height:768px;
 	width:1366px;
 	display: flex;
@@ -18,6 +23,7 @@ body {
 	/* border:1px solid white; */
 	height: max-content;
 	width: 88%;
+	box-shadow:  0px 3px 3px 3px rgba(0, 0, 0, 0.158);
 }
 body * {
 	flex-shrink: 0;
@@ -25,7 +31,7 @@ body * {
 	padding: 0;
 }
 header {
-	background: rgb(34, 34, 34);
+	background: var(--headerFooterColor);
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
@@ -96,7 +102,7 @@ nav {
 	padding: 0;
 	height: 34px;
 	width: 100%;
-	background: rgb(139, 58, 58);
+	background: var(--navMaroon);
 	font-size: 1.2em;
 	font-weight: bold;
 }
@@ -362,22 +368,35 @@ nav ol li {
 /* --------FOOTER---------- */
 footer{
 	border: none;
-	border-top: 1px solid rgba(50, 50, 50, 0.6);
-	margin:0 0 0.4em 0;
+	/* border-top: 1px solid rgba(50, 50, 50, 0.6); */
+	/* margin:0 0 0.4em 0; */
 	height:107px;
 	width:100%;
-	background: rgb(34, 34, 34);
+	background: var(--headerFooterColor);
 	display: grid;
-	grid-template-columns: 50% 50%;
+	grid-template-columns: auto 45% 45%;
 	justify-content: space-between;
-	align-items: center;
+	/* align-items: center; */
+}
+footer img{
+	height:inherit;
+	/* width:100%; */
+	background-color: rgb(235, 237, 238);
+	border-radius: 0 0px 30% 0px;
 }
 footer>div{
+	height:inherit;
 	width: 100%;
 	line-height:20px;
-	padding: 1em;
 	font-size: 0.9em;
 	color: rgb(200, 204, 207);
+	display: grid;
+	align-items:center;
+	/* display: flex;
+	flex-direction: column;
+	justify-content:flex-start;
+	align-items: center; */
+
 }
 #copyRights{
 	width:100%;
