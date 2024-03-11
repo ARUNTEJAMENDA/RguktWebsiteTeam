@@ -421,4 +421,8 @@ footer>div{
 	#others {
 		/* width: 30%; */
 	}
+	.contents{
+		font-size: 0.7em;
+		/* line-height: unset; */
+	}
 }
