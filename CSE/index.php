@@ -43,6 +43,22 @@
 						</div>
 					</div>
                     <script src="assets/js/carousel.js"></script>
+					<script>
+						$(document).ready(function(){
+							const nextButton = document.querySelector(".carousel__button--right");
+							const prevButton = document.querySelector(".carousel__button--left");
+							var imgCount = document.querySelectorAll(".carousel__indicator");
+							imgCount = imgCount.length;
+							let iter =0;
+							let go = "f"
+							setInterval(function(){
+								if (iter == 0){go = "f";}
+								if (iter==imgCount){go = "b";}
+								if (go == "f"){$(nextButton).click();iter++;}
+								if (go == "b"){$(prevButton).click();iter--;}
+							},3000);
+						});
+					</script>
 				</div>
 				<div class="section1" id="announcementsContainer">
 					<div id="announcements">
@@ -138,13 +154,37 @@
 							</div>
 						</div>
 					</div>
-					<div class="contents" id="content2">Content-2</div>
+					<div class="contents" id="content2">
+						<h3 style="text-align:center;">Message from the Head of the Department</h3>
+						<hr>
+						Welcome to the Department of Computer Science and Engineering at IIT Madras. IIT Madras was ranked first amongst several other similar Research and Teaching institutions in Engineering, for the continuous seventh time in the 2022 edition of National Institute Ranking Framework established by the Ministry for Human Resources Development (MHRD), the Government of India. IIT Madras was ranked amongst the top 50 Asian Universities in the QS rankings 2018.
+						<br>
+						<br>
+						The Department started as the Computer Centre in 1973 with the acquisition of an IBM 370 Computer. It presently offers B. Tech., dual-degree B.Tech./ M.Tech., M.Tech., M.S., Ph.D. degree programmes. A dual-degree B.Tech/M.Tech. program in data science, open to all B.Tech. students of IIT Madras, has been started from Jan. 2018.
+						<br>
+						<br>
+						The department has a vibrant student body numbering around 700 and faculty numbering nearly 35. About 60% of students are postgraduates, mostly supported by government of India scholarships and research projects. The Departments also offers several attractive industry-sponsored fellowships for outstanding Ph.D. scholars.
+						<br>
+						<br>
+						The vision of the CSE Department is Global Excellence and Local Relevance in Research, teaching, and technology development in Computer Science and Engineering. In pursuit of this vision, the Department is actively engaged in research activities in various research areas.
+						<br>
+						<br>
+						The Department's research activities have been funded by several Government organizations such as Department of Science & Technology (DST), Ministry Of Electronics & Information Technology (MeiTY), and Defence Research and Development Organisation (DRDO); and by several industries including Accenture, Amazon, Ciena, Google, Hitachi, IBM, Intel, Microsoft, Tata Power Corporation, and VMWare. Several of our alumni hold important positions in the industry and academia worldwide. Students have been recently placed, both in India and abroad, in several leading national and international companies including Adobe, Apple, Flipkart, Goldman Sachs, Google, IBM, Intel, Juniper, LinkedIn, Microsoft, Ola, Oracle, Paypal, Qualcomm, Samsung, Uber, and Visa. Many Ph.D. graduates are serving as faculty members, both in India and abroad, in reputed educational institutions such as Indian Institute of Science Bangalore, Institute of Mathematical Sciences, IIT Bombay, IIT Kanpur, IIT Kharagpur, IIT Madras, IIT Guwahati, IIT Hyderabad, IIT Jodhpur, IIT Dharwad, IIT Mandi, IIT Palakkad, IIT Tirupati, IIIT Bangalore, IIITDM Kancheepuram, NIT Calicut, NIT Trichy, Iowa State University, Queen’s University Belfast, and National University of Singapore.
+						<br>
+						<br>
+						<span style="color:var(--maroon);">Dr. S.Chiranjeevi M.Tech, PhD</span>
+						<!-- Assistant Professor, Computer Science and Engineering -->
+						<br>Head of the Department
+						<br>Department of Computer Science and Engineering
+						<br>RGUKT-Nuzvid
+						<br>Eluru Dist- 521202.
+					</div>
 				</div>
 			</div>
 			<div id="row3" >
 				<div class="row3Child" id="c1">
 					<h3>For Current Students</h3>
-					<hr>
+					<!-- <hr> -->
 					<ol>
 						<li>Lorem ipsum dolor sit</li>
 						<li>Lorem ipsum dolor sit</li>
@@ -156,7 +196,7 @@
 				</div>
 				<div class="row3Child" id="c2">
 					<h3>For Prospective Students</h3>
-					<hr>
+					<!-- <hr> -->
 					<ol>
 						<li>Lorem ipsum dolor sit</li>
 						<li>Lorem ipsum dolor sit</li>
@@ -168,7 +208,7 @@
 				</div>
 				<div class="row3Child" id="c3">
 					<h3>For Visitors</h3>
-					<hr>
+					<!-- <hr> -->
 					<ol>
 						<li>Lorem ipsum dolor sit</li>
 						<li>Lorem ipsum dolor sit</li>
@@ -180,7 +220,7 @@
 				</div>
 				<div class="row3Child" id="c4">
 					<h3>For Prospective Faculty</h3>
-					<hr>
+					<!-- <hr> -->
 					<ol>
 						<li>Lorem ipsum dolor sit</li>
 						<li>Lorem ipsum dolor sit</li>

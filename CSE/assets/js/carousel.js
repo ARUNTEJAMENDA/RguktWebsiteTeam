@@ -31,7 +31,6 @@ const updateDots = (currentDot, targetDot) => {
   currentDot.classList.remove("current-slide");
   targetDot.classList.add("current-slide");
 };
-
 nextButton.addEventListener("click", (e) => {
   const currentSlide = track.querySelector(".current-slide");
   const nextSlide = currentSlide.nextElementSibling;
