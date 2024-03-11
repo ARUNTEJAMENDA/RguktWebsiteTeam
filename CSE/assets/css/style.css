@@ -423,8 +423,14 @@ footer>div{
 	}
 	#rightContainer{
 		line-height: unset;
+		font-size: 0.5em;
 	}
-	.contents{
+	/* .contents{} */
+	#UpcomingSeminars ol li{
+		font-size: 1em;
+	}
+
+	#row3{
 		font-size: 0.5em;
 	}
 }
