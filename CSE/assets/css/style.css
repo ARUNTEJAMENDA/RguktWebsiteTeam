@@ -421,8 +421,10 @@ footer>div{
 	#others {
 		/* width: 30%; */
 	}
+	#rightContainer{
+		line-height: unset;
+	}
 	.contents{
-		font-size: 0.7em;
-		/* line-height: unset; */
+		font-size: 0.5em;
 	}
 }
